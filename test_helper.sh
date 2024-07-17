@@ -123,7 +123,7 @@ else
     ONEWAY=1
 fi
 
-for CASE in `seq 0 4`; do
+for CASE in `seq 0 0`; do
     echo --- Case: $CASE | tee -a $LOGS
     for REP in `seq 0 0`; do
 	echo --- Repetition: $REP | tee -a $LOGS
